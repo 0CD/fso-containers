@@ -1,0 +1,23 @@
+###
+GET http://localhost:3001/info
+###
+GET http://localhost:3001/api/persons
+###
+GET http://localhost:3001/api/persons/1
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Arto Hellas",
+  "number": "123-123456"
+}
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Forsen",
+  "number": "123-123456"
+}
+###
