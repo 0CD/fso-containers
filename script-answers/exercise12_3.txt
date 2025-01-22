@@ -1,0 +1,4 @@
+root@2d4ca0fcefe3:/# apt-get update
+root@2d4ca0fcefe3:/# apt-get -y install vim
+root@2d4ca0fcefe3:/# vim /usr/src/app/index.js
+root@2d4ca0fcefe3:/# 

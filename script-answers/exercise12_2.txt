@@ -1,0 +1,13 @@
+~/Doc/U/2024/A/F/fso-containers/script-answers main ?1 ❯ docker container run -it ubuntu bash        07:07:38
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+8bb55f067777: Download complete
+Digest: sha256:80dd3c3b9c6cecb9f1667e9290b3bc61b78c2678c02cbdae5f0fea92cc6734ab
+Status: Downloaded newer image for ubuntu:latest
+root@2d4ca0fcefe3:/# mkdir /usr/src/app
+root@2d4ca0fcefe3:/# touch /usr/src/app/index.js
+root@2d4ca0fcefe3:/# ls -a /usr/src/app
+.  ..  index.js
+root@2d4ca0fcefe3:/# exit
+exit
+root@2d4ca0fcefe3:/#
